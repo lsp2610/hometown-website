@@ -1,0 +1,51 @@
+/**
+Palette: https://coolors.co/palette/8ecae6-219ebc-023047-ffb703-fb8500
+
+Light Blue: #8ECAE6
+Medium Blue: #219EBC
+Dark Blue: #023047
+Yellow: #FFB703
+Orange: #FB8500
+
+
+
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: "Roboto Slab", serif;
+
+}
+
+img {
+    width: 100px;
+}
+
+
+#hero {
+    height: 350px;
+    background-image: url("/images/leigh-on-sea-from-above.webp");
+    background-size: cover;
+    color: white;
+    text-shadow: 0 0 2px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    
+}
+
+#hero h1{
+    margin: 80px 10px 20px 10px;
+    padding: 15px;
+    background: #023047;
+    border-radius: 15px;
+}
+#hero h2 {
+    margin: 0 70px;
+    padding: 5px;
+    background: #8ECAE6;
+    border-radius: 15px;
+}
